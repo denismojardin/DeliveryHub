@@ -2,7 +2,7 @@
 
 A C# practice project to learn and apply basic Object-Oriented Programming (OOP) concepts.
 
-## ¿Qué practica este proyecto?
+## What does this project practice?
 
 - **Classes and objects:** orders, users, and inventory.
 - **Inheritance:** `PedidoFlash` and `PedidoVIP` inherit from `PedidoBasico`.
