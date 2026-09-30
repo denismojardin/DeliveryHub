@@ -1,35 +1,35 @@
 # DeliveryHub
 
-Proyecto de práctica en C# para aprender y aplicar conceptos básicos de Programación Orientada a Objetos (POO).
+A C# practice project to learn and apply basic Object-Oriented Programming (OOP) concepts.
 
 ## ¿Qué practica este proyecto?
 
-- **Clases y objetos:** pedidos, usuarios e inventario.
-- **Herencia:** `PedidoFlash` y `PedidoVIP` heredan de `PedidoBasico`.
-- **Polimorfismo:** cada tipo de pedido puede calcular su total de manera distinta.
-- **Interfaces:** autenticación, inventario y notificaciones.
-- **Encapsulamiento:** propiedades y campos de las clases.
+- **Classes and objects:** orders, users, and inventory.
+- **Inheritance:** `PedidoFlash` and `PedidoVIP` inherit from `PedidoBasico`.
+- **Polymorphism:** each order type can calculate its total differently.
+- **Interfaces:** authentication, inventory, and notifications.
+- **Encapsulation:** properties and fields of classes.
 
-El proyecto todavía está en desarrollo y es parte de mi proceso de aprendizaje.
+The project is still under development and is part of my learning journey.
 
-## Requisitos
+## Requirements
 
-- SDK de .NET compatible con la versión indicada en `DeliveryHub.csproj` (actualmente .NET 10).
+- .NET SDK compatible with the version specified in DeliveryHub.csproj (currently .NET 10).
 
-## Cómo ejecutarlo
+## How to run it
 
-Desde una terminal, dentro de la carpeta del proyecto, ejecuta:
+From a terminal inside the project folder, run:
 
 ```bash
 dotnet restore
 dotnet run
 ```
 
-## Prueba de inicio de sesión
+## Login test
 
-El programa incluye dos usuarios de demostración:
+The program includes two demo users:
 
-- Usuario: `val` — Contraseña: `val123`
-- Usuario: `denis` — Contraseña: `denis727`
+- User: `val` — Password: `val123`
+- User: `denis` — Password: `denis727`
 
-Son datos ficticios para probar el ejercicio; no uses contraseñas reales. La autenticación es didáctica y no está diseñada para producción.
+These are dummy credentials for testing the exercise; do not use real passwords. The authentication is for educational purposes and is not designed for production.
