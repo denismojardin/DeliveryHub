@@ -1,0 +1,14 @@
+# Archivos generados por .NET y Visual Studio
+bin/
+obj/
+.vs/
+*.user
+*.suo
+
+# Configuración local de editores
+.vscode/
+.idea/
+
+# Archivos del sistema
+.DS_Store
+Thumbs.db
